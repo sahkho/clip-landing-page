@@ -7,15 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="raster.css">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Work+Sans" rel="stylesheet">
+  <script src="https://widget.prefinery.com/widget/v2/cahp7xde.js" async defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Work+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
   <grid columns=8>
-      
-
-    <c span=2-5>
+    <c span=2-4>
       <p style="
       width: 51px;
       height: 45px;
@@ -29,41 +28,25 @@
       letter-spacing: -0.02em;
       color: #222222;
       ">Clip</p>
-      <div style="padding-top: 110px;">
+      <div id="info">
+        <p id="small-caps">Y-COMBINATOR STARTUP SCHOOL GRANT RECIPIENTS</p>
         <p id="header">Never forget about your favorite products.</p>
-        <p id="subtitle" style="margin-top: 24px">Scan product tags in-store to get notified when items are back in stock, a price drops, get reviews and more.</p>
+        <p id="subtitle">Scan product tags in-store to get notified when items are back in stock, a price drops, get reviews and more.</p>
+        <button id="hover" class="prefinery-form-cta" type="button" style="
+          border-radius: 5px 5px 5px 5px;
+          width: 182px;
+          height: 54px;
+          border: 0;
+        "><p id="get-access">Get Priority Access</p></button>
+        <img src="retailers.png" style="margin-top: 48px;width: 100%;" alt="">
       </div>
     </c>
     
-    <c span="8-8" style="margin-top: 12px;">
+    <c span=7-8 style="position: relative;">
       <a href="mailto:sk938@cornell.edu" class="button">For Retailers</a>
+      <img src="placeholder.png" id="mock" alt="">
     </c>
-  
-      
-    <c span="2-4">
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2" style="
-            height: 54px;
-            background: #FFFFFF;
-            border-radius: 5px 0px 0px 5px;
-            font-size: 15px;
-            color: #183635;
-            border: 0;
-            ">
-            <div class="input-group-append">
-            <button id="hover" class="join-waitlist" type="button" style="
-              border-radius: 0px 5px 5px 0px;
-              width: 182px;
-              height: 54px;
-              border: 0;
-            "><p id="get-access">Get Priority Access</p></button>
-            </div>
-          </div>
-      </c>
-      
-      <c span=2-4 style="margin-top: 48px;">
-        <img src="retailers.png" alt="">
-      </c>
+    
   
   </grid>
 </body>
