@@ -81,11 +81,11 @@ line-height: 24px;
 font-size: 15px;
 text-align: center;
 letter-spacing: -0.02em;
-color: #EE7367;
+color: #183635;
 }
 /* hover color */
 #hover {
-  background: #D99F98;
+  background: #EE7367;
 }
 #hover:hover {
   background: #99706B;
