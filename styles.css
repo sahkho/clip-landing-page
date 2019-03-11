@@ -112,3 +112,7 @@ color: #183635;
   letter-spacing: 0.15em; 
 }
 
+#mock {
+  opacity: 0;
+}
+
