@@ -10,8 +10,11 @@ body {background-color: #F9F4F1 !important;}
     width: 303px !important;
     padding-bottom: 24px !important;
   }
-  #small-caps, #mock {
+  #mock {
     opacity: 0;
+  }
+  #small-caps {
+    width: 300px !important;
   }
   #info {
     padding-top: 48px !important;
