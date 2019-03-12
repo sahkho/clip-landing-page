@@ -1,10 +1,18 @@
-body {background-color: #F9F4F1 !important;}
+body {background-color: #F9F4F1 !important; 
+  background-image: url('placeholder.png');
+  background-repeat: no-repeat;
+    background-size: 40% 100%;
+    background-position: right top;
+}
 
 @media only screen and (max-width: 800px) {
   #header {
     font-size: 36px !important;
     line-height: 40px !important;
     width: 303px !important;
+  }
+  body {
+    background-image: none;
   }
   #subtitle {
     width: 303px !important;
