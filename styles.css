@@ -16,7 +16,7 @@ body {background-color: #F9F4F1 !important;
   }
   #subtitle {
     width: 303px !important;
-    padding-bottom: 56px !important;
+    margin-bottom: 56px !important;
   }
   #mock {
     opacity: 0;
